@@ -13,13 +13,14 @@ body {
   font-weight: 700;
   color: #ffffff;
   padding: 15px 35px;
+  cursor: pointer;
 }
 
 .text_primary {
   color: #fd6e0a;
 }
 
-.sction_title {
+.section_title {
   color: #181818;
   font-size: 35px;
   font-weight: 700;
@@ -112,7 +113,10 @@ nav a {
 }
 
 /* main section styles */
-
+main {
+  max-width: 1140px;
+  margin: 0 auto;
+}
 /* about section styles */
 
 .about {
