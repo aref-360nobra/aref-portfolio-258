@@ -54,12 +54,48 @@ nav a {
   background-color: #fff8f3;
 }
 .banner {
-  padding: 30px 30px 30px 150px;
+  padding: 30px 30px 0px 150px;
   display: flex;
   align-items: center;
+  background: url(/images/header_bg.png);
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  justify-content: space-between;
 }
 
 .banner .profile_pic {
   width: 584px;
   height: 676px;
 }
+
+.banner_greeting {
+  font-size: 45px;
+  font-weight: 600;
+  color: #474747;
+  margin: 0;
+}
+
+.banner_title {
+  font-size: 85px;
+  font-weight: 700;
+  color: #181818;
+  margin-top: 5px;
+}
+
+.banner_description {
+  margin-top: 20px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0%;
+  text-align: left;
+  color: #757575;
+}
+
+.banner_content {
+  width: 585px;
+  height: 356px;
+}
+
+/* main section styles */
+
