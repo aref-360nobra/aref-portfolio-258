@@ -19,10 +19,12 @@
 .resume_column_title {
   font-size: 30px;
 }
+
 .resume_item_title {
   font-size: 25px;
   line-height: 34px;
   letter-spacing: 0%;
+  margin-bottom: 10px;
 }
 
 .resume_item_institute {
@@ -42,4 +44,15 @@
   line-height: 28px;
   letter-spacing: 0%;
   font-size: 16px;
+  margin-top: 20px;
+}
+
+
+.resume_container hr {
+  margin: 30px;
+}
+
+.download_cv {
+  text-align: center;
+  margin-top: 50px;
 }

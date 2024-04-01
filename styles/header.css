@@ -47,3 +47,7 @@
   width: 585px;
   height: 356px;
 }
+
+#progressive_button {
+  cursor: progress;
+}
