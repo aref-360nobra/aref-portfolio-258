@@ -6,3 +6,28 @@
   border-radius: 10px;
   background: #fff8f3;
 }
+.about_info_container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.about_info {
+  text-align: center;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+#what_i_do_description {
+  padding: 30px 150px;
+}
+
+.skills_container {
+  display: flex;
+  justify-content: space-between;
+}
+.skil {
+  border-radius: 5px;
+  box-shadow: 0px 6px 50px 0px #0000000f;
+  background-color: #fff;
+}
