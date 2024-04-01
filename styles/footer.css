@@ -1,0 +1,28 @@
+/* footer styles */
+
+footer {
+    display: flex;
+    background-color: #fff8f3;
+    padding: 130px 230px;
+    margin-top: 113px;
+    gap: 117px;
+}
+
+.section_description {
+    color: #474747;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.footer_column {
+    width: 50%;
+}
+
+.contact input,
+textarea {
+    display: block;
+    margin-bottom: 24px;
+}
