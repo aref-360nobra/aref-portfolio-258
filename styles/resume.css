@@ -1,0 +1,45 @@
+/* resume section styles */
+
+.resume_title {
+  color: #474747;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.resume_container {
+  display: flex;
+  gap: 71px;
+}
+
+.resume_column_title,
+.resume_item_title {
+  color: #474747;
+}
+
+.resume_column_title {
+  font-size: 30px;
+}
+.resume_item_title {
+  font-size: 25px;
+  line-height: 34px;
+  letter-spacing: 0%;
+}
+
+.resume_item_institute {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 27px;
+  letter-spacing: 0%;
+}
+
+.resume_item_institute,
+.resume_item_description {
+  color: #757575;
+}
+
+.resume_item_description {
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0%;
+  font-size: 16px;
+}

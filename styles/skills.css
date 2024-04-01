@@ -1,0 +1,31 @@
+/* skills related styles */
+
+#what_i_do_description {
+  padding: 30px 150px;
+}
+.about_info,
+.about_title,
+.info_description {
+  cursor: pointer;
+}
+.skills_container {
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+}
+.skill {
+  border-radius: 5px;
+  box-shadow: 0px 6px 50px 0px #0000000f;
+  background-color: #fff;
+  padding: 33px;
+}
+
+.skill_title {
+  font-size: 20px;
+  color: #181818;
+}
+
+.skill_description {
+  font-size: 16px;
+  color: #757575;
+}

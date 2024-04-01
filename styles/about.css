@@ -18,24 +18,3 @@
   letter-spacing: 0%;
   text-align: center;
 }
-#what_i_do_description {
-  padding: 30px 150px;
-}
-
-.skills_container {
-  display: flex;
-  justify-content: space-between;
-}
-.skill {
-  border-radius: 5px;
-  box-shadow: 0px 6px 50px 0px #0000000f;
-  background-color: #fff;
-}
-
-.skill_title {
-  font-size: 20px;
-}
-
-.skill_description {
-  font-size: 16px;
-}
