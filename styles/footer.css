@@ -8,7 +8,7 @@ footer {
     gap: 117px;
 }
 
-.section_description {
+footer .section_description {
     color: #474747;
     font-size: 16px;
     font-weight: 400;
@@ -21,8 +21,38 @@ footer {
     width: 50%;
 }
 
-.contact input,
-textarea {
+.social_links a {
+    width: 24px;
+    height: 24px;
+    margin-left: 24px;
+}
+
+footer .section_title {
+    color: #181818;
+    font-size: 35px;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.contact input[type="text"],
+.contact input[type="email"],
+.contact textarea {
     display: block;
     margin-bottom: 24px;
+    padding: 18px 30px;
+    border-radius: 5px;
+    background-color: #fff;
+    border: 0;
+    width: 100%;
+}
+
+.contact input[placeholder],
+.contact textarea[placeholder] {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-align: left;
+    color: #757575;
 }
