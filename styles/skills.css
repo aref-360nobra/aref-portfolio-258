@@ -3,16 +3,20 @@
 #what_i_do_description {
   padding: 30px 150px;
 }
+
 .about_info,
 .about_title,
 .info_description {
   cursor: pointer;
 }
+
 .skills_container {
   display: flex;
   justify-content: space-between;
   gap: 24px;
+  flex-wrap: wrap;
 }
+
 .skill {
   border-radius: 8px;
   box-shadow: 0px 6px 50px 0px #0000000f;
