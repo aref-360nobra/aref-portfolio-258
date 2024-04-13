@@ -8,7 +8,7 @@
 
 .resume_container {
   display: flex;
-  gap: 71px;
+  gap: 50px;
 }
 
 .resume_column_title,

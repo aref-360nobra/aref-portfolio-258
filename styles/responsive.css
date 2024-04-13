@@ -1,0 +1,33 @@
+/* mobile devices */
+.hide {
+    display: none;
+}
+
+@media screen and (max-width:576px) {
+
+    .skills_container,
+    .resume_container,
+    footer {
+        flex-direction: column;
+        margin: auto 18px;
+    }
+
+    #what_i_do_description {
+        padding: 20px;
+    }
+
+    footer {
+        padding: 10px;
+    }
+
+    .footer_column {
+        width: 100%;
+    }
+
+    .contact input[type="text"],
+    .contact input[type="email"]{
+        width: 70%;
+    }
+}
+
+@media screen and (min-width:576px) and (max-width:960px) {}
